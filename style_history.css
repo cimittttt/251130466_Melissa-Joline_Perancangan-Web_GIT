@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #0f0f0f;
+  color: white;
+}
+
+.navbar {
+  background-color: #0f0f0f;
+  border-bottom: 1px solid #222;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 90%;
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 1px solid #111;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.menu a.aktif {
+  background-color: white;
+  color: black;
+}
+
+.menu a:hover:not(.aktif) {
+  border-color: white;
+}
+
+.header-raksasa {
+  text-align: center;
+  padding: 100px 20px 60px 20px;
+}
+
+.teks-raksasa {
+  font-size: 120px;
+  font-weight: 900;
+  line-height: 0.9;
+  letter-spacing: -2px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.sub-header-pink {
+  color: #c4789b;
+  font-weight: bold;
+  letter-spacing: 4px;
+  font-size: 14px;
+}
+
+.wadah-konten {
+  max-width: 1000px;
+  margin: 0 auto 80px auto;
+  width: 90%;
+}
+
+.sejarah-item {
+  margin-top: 40px;
+}
+
+.tahun-sejarah {
+  color: #c4789b;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.konten-dua-kolom {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.kolom-foto {
+  flex: 1;
+}
+
+.kolom-foto img {
+  width: 100%;
+  height: auto;
+  filter: grayscale(100%);
+  border-radius: 4px;
+}
+
+.kolom-penjelasan {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.judul-penjelasan {
+  font-size: 24px;
+  margin-bottom: 20px;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.kolom-penjelasan p {
+  color: #aaa;
+  font-size: 15px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.site-footer {
+  margin-top: 100px;
+  background-color: #0f0f0f;
+  border-top: 1px solid #222;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.site-footer p {
+  color: #666;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
