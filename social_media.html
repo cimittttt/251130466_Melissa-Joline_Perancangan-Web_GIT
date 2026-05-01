@@ -2,82 +2,91 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Lyne</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/18291/18291644.png" type="image/x-icon">
+    <link rel="stylesheet" href="style_social_media.css">
 </head>
 <body>
 
-    <nav>
-        <ul>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-        </ul>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Lyne</div>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="history.html">Random</a></li>
+                <li><a href="social_media.html" class="aktif">Social Media</a></li>
+            </ul>
+        </div>
     </nav>
 
-    <header>
-        <h1></h1>
-        <p></p>
+    <header class="header-kontak">
+        <h1 class="teks-raksasa">LET'S<br>TALK</h1>
+        <p class="sub-header">FOR BUSINESS REQUIREMENT</p>
     </header>
 
-    <main>
+    <main class="wadah-konten">
         
-        <section>
-            <h2></h2>
+        <div class="layout-kontak">
             
-            <p>
-                <span></span><br>
-                <a href=""></a>
-            </p>
-            
-            <p>
-                <span></span><br>
-                <a href=""></a>
-            </p>
-
-            <hr>
-
-            <h2></h2>
-            
-            <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-            </ul>
-        </section>
-
-        <section>
-            <form action="" method="">
+            <div class="kolom-informasi">
+                <h2 class="judul-bagian">BUSINESS INFORMATION</h2>
                 
-                <p>
-                    <label></label><br>
-                    <input type="">
-                </p>
+                <div class="item-info">
+                    <span class="label-info">COLLAB/PROJECT</span>
+                    <a href="mailto:melissa.joline@students.mikroskil.ac.id" class="nilai-info">melissa.joline@students.mikroskil.ac.id</a>
+                </div>
+                
+                <div class="item-info">
+                    <span class="label-info">GENERAL QUESTION</span>
+                    <a href="mailto:melissa.joline@students.mikroskil.ac.id" class="nilai-info">melissa.joline@students.mikroskil.ac.id</a>
+                </div>
 
-                <p>
-                    <label></label><br>
-                    <input type="">
-                </p>
+                <hr class="garis-pembatas">
 
-                <p>
-                    <label></label><br>
-                    <input type="">
-                </p>
+                <h2 class="judul-bagian" style="margin-top: 30px; font-size: 14px;">DIGITAL CONNECTION</h2>
+                
+                <ul class="daftar-sosmed">
+                    <li><a href="https://www.instagram.com/jolynee_?igsh=Ynd2YzJmcWtxNzUx&utm_source=qr">INSTAGRAM</a></li>
+                    <li><a href="www.tiktok.com/@miuryyys">TIKTOK</a></li>
+                </ul>
+            </div>
 
-                <p>
-                    <label></label><br>
-                    <textarea rows=""></textarea>
-                </p>
+            <div class="kolom-formulir">
+                <form action="#" method="POST">
+                    
+                    <div class="grup-input">
+                        <label for="nama">Name</label>
+                        <input type="text" id="nama" placeholder="Ex: Melissa Joline" required>
+                    </div>
 
-                <button type=""></button>
+                    <div class="grup-input">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="email@anda.com" required>
+                    </div>
 
-            </form>
-        </section>
+                    <div class="grup-input">
+                        <label for="perihal">About</label>
+                        <input type="text" id="perihal" placeholder="Ex: Job/Collab?" required>
+                    </div>
+
+                    <div class="grup-input">
+                        <label for="pesan">Message</label>
+                        <textarea id="pesan" rows="5" placeholder="Write your messages here" required></textarea>
+                    </div>
+
+                    <button type="submit" class="tombol-kirim">SEND MESSAGE</button>
+
+                </form>
+            </div>
+
+        </div>
 
     </main>
 
-    <footer>
-        <p></p>
+    <footer class="site-footer">
+        <p> &copy;2026 LYNE OFFICIAL / MIKROSKIL RECORDS. ALL RIGHTS RESERVED.</p>
     </footer>
 
 </body>
-</html>
+</html> 

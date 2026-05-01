@@ -2,64 +2,96 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Lyne</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/18291/18291644.png" type="image/x-icon">
+    <link rel="stylesheet" href="style_music.css">
 </head>
 <body>
 
-    <nav>
-        <ul>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-        </ul>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Lyne</div>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="music.html" class="aktif">Music</a></li>
+                <li><a href="history.html">Random</a></li>
+                <li><a href="social_media.html">Social Media</a></li>
+            </ul>
+        </div>
     </nav>
 
-    <main>
+    <main class="wadah-konten">
         
-        <section>
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+        <section class="grid-musik">
+            <div class="gambar-besar" style="background-image: url('https://i.pinimg.com/736x/84/61/6c/84616c437c8ba5144fee93803cc57c7a.jpg');"></div>
+            <div class="gambar-kecil-atas" style="background-image: url('https://i.pinimg.com/736x/30/db/00/30db003a7e399bdae3d501a1069d8ee4.jpg');"></div>
+            <div class="gambar-kecil-bawah" style="background-image: url('https://i.pinimg.com/736x/a1/82/6e/a1826e81b37cf9c6244a3448de37d8c5.jpg');"></div>
         </section>
 
-        <section>
-            <h2></h2>
-            <p></p>
-            <p><i></i><span></span></p>
+        <section class="kotak-sorotan">
+            <h2 class="judul-pink">Musical Exploration</h2>
+            <p>Doing something you love is freedom , loving what you do is happiness. 
+            <p>You try to push me out<i></i> But I just find my way back in <span class="teks-pink">Cinnamon Girl</span> violet ,blue ,green, red to keep me out , i win.</p>
         </section>
 
-        <section>
-            <h2></h2>
-            <p></p>
-            <hr>
+        <section class="playlist-section">
+            <h2 class="judul-playlist">LANA DEL REY PLAYLIST</h2>
+            <p class="sub-playlist">Playlist by Lyne.</p>
+            <hr class="garis-pembatas">
 
-            <ol>
-                <li>
-                    <p><strong></strong></p>
-                    <audio controls>
-                        <source src="" type="">
-                    </audio>
-                </li>
-                <li>
-                    <p><strong></strong></p>
-                    <audio controls>
-                        <source src="" type="">
-                    </audio>
-                </li>
-                <li>
-                    <p><strong></strong></p>
-                    <audio controls>
-                        <source src="" type="">
-                    </audio>
-                </li>
-            </ol>
+            <div class="lagu-item">
+                <div class="lagu-kiri">
+                    <span class="nomor-lagu">01</span>
+                    <span class="judul-lagu">Cinnamon Girl</span>
+                </div>
+                <div class="lagu-kanan">
+                    <span class="durasi">05:00</span>
+                </div>
+            </div>
+
+            <div class="pemutar-audio">
+                <audio controls>
+                    <source src="audio/Cinnamon Girl.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="lagu-item">
+                <div class="lagu-kiri">
+                    <span class="nomor-lagu">02</span>
+                    <span class="judul-lagu">Young And Beautiful</span>
+                </div>
+                <div class="lagu-kanan">
+                    <span class="durasi">03:58</span>
+                </div>
+            </div>
+
+            <div class="pemutar-audio">
+                <audio controls>
+                    <source src="audio/Lana Del Rey - Young and Beautiful.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="lagu-item">
+                <div class="lagu-kiri">
+                    <span class="nomor-lagu">03</span>
+                    <span class="judul-lagu">Summertime Sadness</span>
+                </div>
+                <div class="lagu-kanan">
+                    <span class="durasi">04:25</span>
+                </div>
+            </div>
+
+            <div class="pemutar-audio">
+                <audio controls>
+                    <source src="audio/Lana-Del-Rey-Summertime-Sadness-(RawPraise.ng).mp3" type="audio/mpeg">
+                </audio>
+            </div>
         </section>
 
     </main>
 
-    <footer>
-        <p></p>
+    <footer class="site-footer">
+        <p> &copy;2026 LYNE OFFICIAL / MIKROSKIL RECORDS. ALL RIGHTS RESERVED.</p>
     </footer>
 
 </body>
