@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #0f0f0f;
+  color: white;
+}
+
+.navbar {
+  background-color: #0f0f0f;
+  border-bottom: 1px solid #222;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 90%;
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 1px solid #111;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.menu a.aktif {
+  background-color: white;
+  color: black;
+}
+
+.menu a:hover:not(.aktif) {
+  border-color: white;
+}
+
+.header-kontak {
+  text-align: center;
+  padding: 80px 20px 60px 20px;
+}
+
+.teks-raksasa {
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.sub-header {
+  color: #888;
+  font-size: 16px;
+}
+
+.wadah-konten {
+  max-width: 1000px;
+  margin: 0 auto 80px auto;
+  width: 90%;
+}
+
+.layout-kontak {
+  display: flex;
+  gap: 60px;
+  align-items: flex-start;
+}
+
+.kolom-informasi {
+  flex: 1;
+  padding-top: 20px;
+}
+
+.judul-bagian {
+  font-size: 20px;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.item-info {
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.label-info {
+  font-size: 11px;
+  color: #666;
+  letter-spacing: 2px;
+}
+
+.nilai-info {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nilai-info:hover {
+  color: #00ffff;
+}
+
+.garis-pembatas {
+  border: none;
+  border-top: 1px solid #222;
+  margin: 40px 0;
+}
+
+.daftar-sosmed {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.daftar-sosmed a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  transition: color 0.3s;
+}
+
+.daftar-sosmed i {
+  font-size: 20px;
+  width: 25px;
+}
+
+.daftar-sosmed a:hover {
+  color: #00ffff;
+}
+
+.kolom-formulir {
+  flex: 1.2;
+  background-color: #141414;
+  padding: 40px;
+  border: 1px solid #222;
+  border-radius: 4px;
+}
+
+.grup-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.grup-input label {
+  font-size: 12px;
+  font-weight: bold;
+  color: #ddd;
+}
+
+.grup-input input,
+.grup-input textarea {
+  background-color: transparent;
+  border: 1px solid #333;
+  color: white;
+  padding: 15px;
+  font-size: 14px;
+  font-family: inherit;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+.grup-input input:focus,
+.grup-input textarea:focus {
+  outline: none;
+  border-color: #fff;
+}
+
+.tombol-kirim {
+  width: 100%;
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 18px;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.tombol-kirim:hover {
+  background-color: #ddd;
+}
+
+.site-footer {
+  margin-top: 100px;
+  background-color: #0f0f0f;
+  border-top: 1px solid #222;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.site-footer p {
+  color: #666;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
